@@ -1,0 +1,102 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+    background-color: pink;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+#button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    left: 50%;
+}
+
+
+#button:hover {
+    background-color: #0056b3; 
+}
+#container1{
+    text-align: center;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+#image{
+    display: block;
+    margin: 0 auto;
+    max-width:20%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+  
+    
+}
+#content0{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#content2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px
+    
+    
+}
+#surveyform{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    margin-bottom: 5px;
+    display: block;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea{
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    background-color:#007bff ;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="submit"]{
+    background-color: #007bff;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: white;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
